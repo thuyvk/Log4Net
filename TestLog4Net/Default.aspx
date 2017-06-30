@@ -8,9 +8,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+        <div>
+            <h4>Demo write log this function</h4>
+            <pre>
+                var x = "2x";
+                var y = 2;
+                int z = Convert.ToInt32(x) + Convert.ToInt32(y);
+    </pre>
+        </div>
     </form>
 </body>
 </html>
