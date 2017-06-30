@@ -1,0 +1,8 @@
+
+ ************* 2017-06-30 08:49:35,870 [11] ERROR default_aspx **************  
+ System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at TestLog4Net.Default.Page_Load(Object sender, EventArgs e) in C:\Users\thuyvk\Desktop\Log4net_Sample\Log4net_Sample\TestLog4Net\Default.aspx.cs:line 18 
+ 
